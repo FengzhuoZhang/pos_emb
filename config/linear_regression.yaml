@@ -1,0 +1,8 @@
+inherit: 
+    - base.yaml
+
+out_dir: /home/aiops/zhangfz/llm/pos_emb/results
+wandb:
+    name: "linear_regression_standard"
+
+test_run: True

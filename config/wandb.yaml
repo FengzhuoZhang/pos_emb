@@ -1,0 +1,5 @@
+wandb:
+    project: pos_emb
+    entity:
+    notes:
+    log_every_steps: 1000

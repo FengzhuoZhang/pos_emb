@@ -1,0 +1,22 @@
+inherit: 
+    - wandb.yaml
+
+model:
+    n_dims: 10
+    n_positions: 50
+    output_mix: False
+    pos_emb: "sin"
+    layers: 1
+    causal : False
+    zero_pad: True
+    modal: 'interweave'
+    train_every_step: False
+
+training:
+    data: gaussian
+    task_kwargs: {}
+    batch_size: 1000
+    learning_rate: 0.001
+    save_every_steps: 1000
+    keep_every_steps: 100000
+    train_steps: 100000

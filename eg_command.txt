@@ -1,0 +1,7 @@
+python -m ipdb -c continue demo.py
+
+python -m ipdb -c continue script/train.py --config config/linear_regression.yaml
+
+python -m ipdb -c continue script/train_fix.py --config config/linear_regression.yaml
+
+python -m ipdb -c continue script/test_model.py
